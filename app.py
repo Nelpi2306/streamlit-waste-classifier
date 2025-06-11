@@ -8,14 +8,14 @@ import os
 
 # --- Konfigurasi Aplikasi Streamlit ---
 st.set_page_config(
-    page_title="Aplikasi Klasifikasi Sampah",
+    page_title="Website Klasifikasi Sampah",
     page_icon="♻️",
     layout="centered",
     initial_sidebar_state="auto"
 )
 
 st.title("♻️ Klasifikasi Jenis Sampah")
-st.write("Aplikasi ini mengklasifikasikan jenis sampah ke dalam kategori yang telah dilatih.")
+st.write("Website ini mengklasifikasikan jenis sampah ke dalam kategori yang telah dilatih.")
 st.write("---")
 
 # --- Path Model dan Class Indices ---
